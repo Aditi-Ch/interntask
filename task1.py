@@ -12,8 +12,6 @@ import pymongo
 from pymongo import MongoClient
 import pandas as pd
 
-! pip install streamlit
-
 import streamlit as st
 
 Aditi_test = MongoClient("mongodb+srv://candidate:candidate2022@cluster0.p8u2o.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
