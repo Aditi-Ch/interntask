@@ -7,10 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1xTcjFoQ7E-Z9Y2bz0D42mibRAjtZoliC
 """
 
-!pip install dnspython
-!pip install pymongo
-!pip install pymongo[srv]
-
 import datetime                            
 import pymongo
 from pymongo import MongoClient
